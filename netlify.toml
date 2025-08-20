@@ -1,0 +1,18 @@
+[build]
+  # Build settings
+  base = "frontend"
+  publish = "frontend"
+  command = ""
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/checkout"
+  to = "/checkout.html"
+  status = 200
