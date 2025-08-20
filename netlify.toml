@@ -1,7 +1,7 @@
 [build]
   # Build settings
   base = "frontend"
-  publish = "frontend"
+  publish = "."
   command = ""
 
 [build.environment]
